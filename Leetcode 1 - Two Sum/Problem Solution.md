@@ -16,3 +16,7 @@ The first thing we can come up with is to check every possiblity of a two number
 *__Space Complexity:__ O(1)*
 
 __Explanation:__ Since we are not creating any extra space and we only need two variables for the pointers the space complexity will be constant. The time complexity will be quadratic because for each element we are checking if it can be paired with another number and sum up to the target.
+
+
+
+## Approach 2: Two pass hashtable
